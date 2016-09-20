@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  root 'static#home'
-  get '/projects',	to: 'static#projects'
-  get '/feed',		to: 'static#feed'	
-  get '/comments',	to: 'static#comments'
+  root	'pages#home'
+  get	'/projects',	to: 'pages#projects'
+  get	'/feed',		to: 'pages#feed'	
+  get	'/comments',	to: 'pages#comments'
 end
