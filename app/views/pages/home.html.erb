@@ -1,8 +1,20 @@
-<h1>Reggie Barnett's site</h1>
-<p>Work in progress...</p>
-
-<p>In the mean time here's a picture of me</p>
-
-<%= image_tag("me.jpg", alt: "Me") %>
+<div class="containter-fluid">
+	<div class="row">
+		<div class="col-md-3 contact"> <br>
+			<%= link_to image_tag("gmail.png", size: "64", alt: 'Gmail'), 'mailto:reggiedbarnett@gmail.com' %> <br>
+			<%= link_to image_tag("linkedin.png", size: "64", alt: 'LinkedIn'), 'https://www.linkedin.com/in/reggie-barnett-39431659' %><br>
+			<%= link_to image_tag("twitter.png", size: "64", alt: 'Twitter'), 'https://twitter.com/reggiebarnett_' %><br>
+			<%= link_to image_tag("facebook.png", size: "64", alt: 'Facebook'), 'https://www.facebook.com/reggie.barnett.16' %><br>
+			<%= link_to image_tag("github.png", size: "64", alt: 'Github'), 'https://github.com/reggiebarnett' %>
+		</div>
+		<div class="col-md-9 main">
+			<p> Welcome to my site! <br><br>
+				<-- Feel free to contact me using any of these. <br><br>
+				I'm currently in the process of learning and developing it so there isn't anything here yet. So in the mean time here's a picture of me. <br>
+				<%= image_tag("me.jpg") %>
+			</p>
+		</div>
+	</div>
+</div>
 
 
