@@ -3,8 +3,22 @@
 
 /* universal */
 
+/* site colors */
+$slate-gray: #738290;
+$wild-blue-yonder: #A1B5D8;
+$snow: #FFFCF7;
+$gunmetal: #2D3142;
+$silver: #BFC0C0;
+$gmailbg: #E04C40;
+$libg: #0084B1;
+$twitbg: #50ABF1;
+$fbbg: #3A559F;
+$gitbg: #181616;
+
 body {
 	padding-top: 60px;
+	padding-bottom:60px; 
+	background-color: $wild-blue-yonder;
 }
 
 /* navbar */
@@ -19,6 +33,30 @@ body {
 
 /* main */
 .main {
-	max-width: 500px;
-	margin: 0 auto;
+	/*max-width: 500px;*/
+	text-align: center;
+	background-color: $snow;
+	border-radius: 10px;
+
+}
+
+#footer {
+	display: inline;
+}
+
+/* footer contents */
+#gmailcontact {
+	background-color: $gmailbg;
+}
+#licontact {
+	background-color: $libg;
+}
+#twitcontact {
+	background-color: $twitbg;
+}
+#fbcontact {
+	background-color: $fbbg;
+}
+#gitcontact {
+	background-color: $gitbg;
 }
